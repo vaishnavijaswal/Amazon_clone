@@ -1,0 +1,144 @@
+      * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* MAIN NAVBAR */
+        .navbar {
+            height: 82px;
+            background-color: #131921;
+            color: white;
+
+            display: flex;
+            align-items: center;
+
+            padding: 0 24px;
+            gap: 22px;
+        }
+
+        /* LOGO */
+        .logo {
+            width: 160px;
+            font-size: 34px;
+            font-weight: bold;
+            letter-spacing: -2px;
+            
+        }
+
+        .logo span {
+            font-size: 20px;
+        }
+
+        /* LOCATION */
+        .location {
+            width: 200px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .location-icon {
+            font-size: 20px;
+        }
+
+        .location-text {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .location-text strong {
+            font-size: 17px;
+        }
+
+        /* SEARCH BAR */
+        .search {
+            height: 54px;
+            display: flex;
+            flex: 1;
+            max-width: 1035px;
+        }
+
+        .search select {
+            width: 70px;
+            border: none;
+            background-color: #e6e6e6;
+            padding: 0 12px;
+            font-size: 15px;
+            color: #555;
+
+            border-radius: 5px 0 0 5px;
+        }
+
+        .search input {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 0 15px;
+            font-size: 20px;
+        }
+
+        .search button {
+            width: 62px;
+            border: none;
+            background-color: #febd69;
+            font-size: 28px;
+            cursor: pointer;
+
+            border-radius: 0 5px 5px 0;
+        }
+
+        /* LANGUAGE */
+        .language {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            font-size: 16px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .flag {
+            font-size: 22px;
+        }
+
+        /* ACCOUNT */
+        .account {
+            white-space: nowrap;
+            line-height: 17px;
+        }
+
+        .small-text {
+            font-size: 13px;
+        }
+
+        .large-text {
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        /* RETURNS */
+        .orders {
+            white-space: nowrap;
+            line-height: 17px;
+        }
+
+        /* CART */
+        .cart {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            font-size: 17px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .cart-icon {
+            font-size: 38px;
+        }
